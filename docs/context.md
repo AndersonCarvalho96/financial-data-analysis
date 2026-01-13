@@ -111,8 +111,13 @@ Métricas financeiras estão associadas à transação
 📌 Fases do Projeto
 Fase	Descrição
 Fase 1	Definição do problema, contexto e perguntas de negócio
+
 Fase 2	Preparação e modelagem dos dados
+
 Fase 3	Análises e métricas utilizando SQL
+
 Fase 4	Análise exploratória e visualizações em Python
+
 Fase 5	Consolidação de insights
+
 Fase 6	Storytelling e entrega final
