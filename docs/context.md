@@ -110,6 +110,7 @@ Métricas financeiras estão associadas à transação
 
 📌 Fases do Projeto
 Fase	Descrição
+
 Fase 1	Definição do problema, contexto e perguntas de negócio
 
 Fase 2	Preparação e modelagem dos dados
