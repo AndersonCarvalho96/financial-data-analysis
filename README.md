@@ -176,5 +176,6 @@ O resultado é uma solução analítica completa, com foco em confiabilidade, go
 
 
 ## 👤 Autor
-Anderson
+Anderson Carvalho
+
 Projeto desenvolvido para fins de portfólio profissional em Análise de Dados.
