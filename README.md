@@ -54,7 +54,6 @@ financial-data-analysis/
 ├── app.py                 # Aplicação Streamlit
 ├── README.md
 ├── requirements.txt
-├── dados_financeiros.db
 │
 ├── data/
 │   ├── accounting_data.csv
