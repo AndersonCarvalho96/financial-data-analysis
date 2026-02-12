@@ -5,6 +5,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import plotly.express as px
+import os
 
 st.set_page_config(page_title="Dashboard Financeiro", layout="wide")
 
@@ -34,8 +35,14 @@ outcome_labels = {
 # =========================
 @st.cache_resource
 def get_connection():
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    db_path = os.path.join(BASE_DIR, "data", "dados_financeiros.db")
+
+    if not os.path.exists(db_path):
+        raise FileNotFoundError(f"Banco não encontrado em {db_path}")
+
     return sqlite3.connect(
-        "data/dados_financeiros.db",
+        db_path,
         check_same_thread=False
     )
 
