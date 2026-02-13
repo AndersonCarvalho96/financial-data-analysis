@@ -201,7 +201,7 @@ kpis = {
 
 for key in kpis.values():
     if key not in st.session_state:
-        st.session_state[key] = False
+        st.session_state[key] = True
 
 cols = st.columns(len(kpis))
 
